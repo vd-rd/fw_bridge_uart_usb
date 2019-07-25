@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\Program Files (x86)\\GNU Tools ARM Embedded\\8 2019-q3-update\\arm-none-eabi\\lib"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "${default}",
+            "compilerPath": "C:\\Program Files (x86)\\GNU Tools ARM Embedded\\8 2019-q3-update\\bin\\arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++14"
+        },
+        {
+            "name": "arm-none-eabi-win",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
